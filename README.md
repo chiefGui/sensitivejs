@@ -1,6 +1,6 @@
 ## Synopsis
 
-Sensitive.js is a fast, intuitive, lightweight jQuery plug-in sensibilize your application on the fly. Now it's easy to set up your site into responsiveness.
+Sensitive.js is a fast, intuitive, lightweight jQuery plug-in that sensibilizes your application on the fly. Now it's easy to set up your site into responsiveness.
 
 ## Code Example
 
