@@ -22,7 +22,7 @@ $.sensitive([1024], function() {
 
 ## Motivation
 
-Yes, there are lots of libraries that promise unleash a extraordinary productivity and reliable coding. But, which one is really serious? Based on this reality, I started to developing Sensitive: my way, simple way, a right way.
+Yes, there are lots of libraries that promise unleash an extraordinary productivity and reliable coding. But, which one is really serious? Based on this reality, I started to developing Sensitive: my way, simple way, a right way.
 
 ## Requeriments
 
@@ -34,9 +34,9 @@ It's pretty simple to install Sensitive.
 
 First of all, you need to download it. To do this, make your choice:
 * Clone? `git clone https://github.com/chiefGui/sensitivejs.git`
-* Want to play a standalone? Development or production — make your choice: 
-    * [sensitive-0.2.0.js](http://google.com) — uncompressed/development version (~3kb)
-    * [sensitive-0.2.0.min.js](http://google.com) — compressed/production version (~2kb)
+* Want to play a standalone? Development or production ï¿½ make your choice: 
+    * [sensitive-0.2.0.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.js) ï¿½ uncompressed/development version (~3kb)
+    * [sensitive-0.2.0.min.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.min.js) ï¿½ compressed/production version (~2kb)
 
 Then, put the plug-in within a folder and reference it on the page that you want to use:
 
