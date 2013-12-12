@@ -34,9 +34,9 @@ It's pretty simple to install Sensitive.
 
 First of all, you need to download it. To do this, make your choice:
 * Clone? `git clone https://github.com/chiefGui/sensitivejs.git`
-* Want to play a standalone? Development or production � make your choice: 
-    * [sensitive-0.2.0.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.js) � uncompressed/development version (~3kb)
-    * [sensitive-0.2.0.min.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.min.js) � compressed/production version (~2kb)
+* Want to play a standalone? Development or production — make your choice: 
+    * [sensitive-0.2.0.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.js) — uncompressed/development version (~3kb)
+    * [sensitive-0.2.0.min.js](https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.2.0.min.js) — compressed/production version (~2kb)
 
 Then, put the plug-in within a folder and reference it on the page that you want to use:
 
