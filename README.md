@@ -54,7 +54,7 @@ Sensitive is composed by three arguments: `ranges`, `action` and `options`.
 * `action` should to be a(n anonymous) function that'll unleash what you want to do in the selected range;
 
 * `options` is the only argument that can be omitted. Take a look in which options you can modify:
-  * `debugging` (default: true): `true | false`
+  * `debugging` (default: false): `true | false`
     * Enters in debug mode.
   * `ultimateScreenSize` (default: 15360): `integer`
     * Defines the ultimate screen size that a range can reach.
