@@ -20,6 +20,10 @@ $.sensitive([1024], function() {
 });
 ```
 
+## Demonstration
+
+Want to see the possibilites? [Check out our live demonstration »](http://chiefgui.github.io/sensitivejs/)
+
 ## Motivation
 
 Yes, there are lots of libraries that promise unleash an extraordinary productivity and reliable coding. But, which one is really serious? Based on this reality, I started to developing Sensitive: my way, simple way, a right way.
