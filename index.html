@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sensitive.js DEMO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                    <a href="https://github.com/chiefGui/sensitivejs">&larr; Go to Sensitive.js' GitHub Project</a>
+            </div>
+        </header>
+        
+        <div class="backstretch" role="main">
+            <div class="wrapper">
+                <span>Excuse me, but...</span>
+                <hr class="royal">
+                
+                <h1>can you resize your browser, please?</h1>
+                
+                <div class="rest">
+                    <hr class="royal">
+                    <span>Rocks, huh? We play with your viewport because we are badass. <em>We are sensitive responsiveness.</em></span>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/vendor/jquery-2.0.3.js"></script>
+        <script src="js/sensitive-0.2.0.min.js"></script>
+        <script>
+            $.sensitive([0, 320], function() {
+                $('body').addClass('dark');
+                
+                $('.backstretch .wrapper h1')
+                        .text('SURPRISE!')
+                        .addClass('surprise');
+                
+                $(".rest").stop().fadeIn();
+            });
+            
+            $.sensitive([569], function() {
+                $('body').removeClass('dark');
+                
+                $('.backstretch .wrapper h1')
+                        .text('can you resize your browser, please?')
+                        .removeClass('surprise');
+                
+                $(".rest").stop().fadeOut();
+            });
+        </script>
+    </body>
+</html>

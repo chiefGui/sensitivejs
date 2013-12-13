@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+$headers-font-stack: "Open Sans", Tahoma, Arial, Verdana;
+$normal-font-stack: "Inconsolata", "Open Sans", Tahoma, Arial, Verdana;
+
+$hard-cyan: #00fff0;
+$hard-yellow: #fff600;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headers-font-stack;
+}
+
+body {
+    background-color: $hard-cyan;
+    font-family: $normal-font-stack;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+    &.dark {
+        background-color: #333;
+    }
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p, a {
+    font-size: 1em;
+}
+
+
+header {
+    background-color: #ed3f54;
+    padding: 75px 0 30px;
+    
+    a {
+        color: $hard-cyan;
+        text-decoration: none;
+        font-size: 0.7em;
+        text-transform: uppercase;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.backstretch {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+    
+    span {
+        color: #19b4ab;
+    }
+
+    hr.royal {
+        width: 30%;
+        padding: 0;
+        border: none;
+        border-top: medium double #09f4e6;
+        color: #e1e1e1;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    h1 {
+        color: white;
+        letter-spacing: -8px;
+        font-style: italic;
+        
+        &.surprise {
+            color: $hard-yellow;
+            text-decoration: blink;
+            text-shadow: $hard-yellow 0 0 25px;
+            font-size: 2.5em;
+            letter-spacing: -4px;
+        }
+    }
+    
+    .rest {
+        display: none;
+    }
+}

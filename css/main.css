@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\000039}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Tahoma, Arial, Verdana; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000313}}
+body {
+  background-color: #00fff0;
+  font-family: "Inconsolata", "Open Sans", Tahoma, Arial, Verdana;
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000320}}
+  body.dark {
+    background-color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000325}}
+h1 {
+  font-size: 4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000329}}
+p, a {
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000334}}
+header {
+  background-color: #ed3f54;
+  padding: 75px 0 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000338}}
+  header a {
+    color: #00fff0;
+    text-decoration: none;
+    font-size: 0.7em;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000344}}
+    header a:hover {
+      text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000350}}
+.wrapper {
+  width: 50%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000355}}
+.backstretch {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 50px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000361}}
+  .backstretch span {
+    color: #19b4ab; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000365}}
+  .backstretch hr.royal {
+    width: 30%;
+    padding: 0;
+    border: none;
+    border-top: medium double #09f4e6;
+    color: #e1e1e1;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000376}}
+  .backstretch h1 {
+    color: white;
+    letter-spacing: -8px;
+    font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000381}}
+    .backstretch h1.surprise {
+      color: #fff600;
+      text-decoration: blink;
+      text-shadow: #fff600 0 0 25px;
+      font-size: 2.5em;
+      letter-spacing: -4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/js\/demonstrations\/sensitivejs\/public_html\/sass\/main\.scss}line{font-family:\0000390}}
+  .backstretch .rest {
+    display: none; }
