@@ -87,17 +87,13 @@
     var device = {
         identification: navigator.userAgent,
         isMobile: function() {
-            if(/mobi/i.test(navigator.userAgent) === true) {
-                return true;
-            } else {
-                return false;
-            };
+            return /mobi/i.test(navigator.userAgent);
         },
         Android: function() {
             return navigator.userAgent.match(/Android/i);
         },
         BlackBerry: function() {
-            return navigator.userAgent.match(/BlackBerry/i)
+            return navigator.userAgent.match(/BlackBerry/i);
         },
         iOS: function() {
             return navigator.userAgent.match(/iPhone|iPad|iPod/i);
