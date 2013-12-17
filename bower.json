@@ -1,0 +1,23 @@
+{
+  "name": "Sensitive.js",
+  "version": "0.3.0",
+  "homepage": "https://github.com/chiefGui/sensitivejs",
+  "authors": [
+    "Guilherme Oderdenge <guilhermeoderdenge@gmail.com>"
+  ],
+  "description": "Sensitive.js is a fast, intuitive, lightweight jQuery plug-in that sensibilizes your application on the fly. Now it's easy to set up your site into responsiveness.",
+  "main": "dist/sensitive-0.3.0.js",
+  "keywords": [
+    "responsive",
+    "plug-in",
+    "jquery"
+  ],
+  "license": "GNU GPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
