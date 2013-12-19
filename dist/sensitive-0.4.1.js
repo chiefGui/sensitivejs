@@ -1,5 +1,5 @@
 /*!
- * Sensitive.js v0.4.0
+ * Sensitive.js v0.4.1
  * A fast, intuitive, lightweight JavaScript plug-in to sensibilize your 
  * application on the fly. In other words, now you can do the JavaScript part 
  * of your responsive application easily.
@@ -67,7 +67,7 @@
         var inRange = screen.reached(range);
 
         if (inRange)
-            screen.sensibilize(range, inRangeCallback);
+            screen.sensibilize(inRangeCallback);
 
         window.addEventListener('resize', function () {
             screen.reached(range) ? (!inRange && (inRange = true) && screen.sensibilize(inRangeCallback)) : ((inRange && screen.sensibilize(outOfRangeCallback)) || (inRange = false));
