@@ -1,0 +1,37 @@
+{
+  "name": "Sensitive.js",
+<<<<<<< HEAD
+  "version": "0.4.0",
+=======
+  "version": "0.3.0",
+>>>>>>> acc0177a0d9ed10777a0396e0cb0c34e0abf9fe1
+  "homepage": "https://github.com/chiefGui/sensitivejs",
+  "authors": [
+    "Guilherme Oderdenge <guilhermeoderdenge@gmail.com>"
+  ],
+<<<<<<< HEAD
+  "description": "Sensitive.js is a fast, intuitive, lightweight vanilla JavaScript plug-in that sensibilizes your application on the fly. Now it's easy to set up your site into responsiveness.",
+  "main": "dist/sensitive-0.4.0.js",
+  "keywords": [
+    "responsive",
+    "plug-in",
+    "vanilla",
+    "javascript"
+=======
+  "description": "Sensitive.js is a fast, intuitive, lightweight jQuery plug-in that sensibilizes your application on the fly. Now it's easy to set up your site into responsiveness.",
+  "main": "dist/sensitive-0.3.0.js",
+  "keywords": [
+    "responsive",
+    "plug-in",
+    "jquery"
+>>>>>>> acc0177a0d9ed10777a0396e0cb0c34e0abf9fe1
+  ],
+  "license": "GNU GPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
