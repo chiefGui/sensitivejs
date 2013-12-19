@@ -211,6 +211,13 @@ Sensitive is composed by **four** arguments: `range`, `inRangeCallback`, `outOfR
 
 * `options` is the only argument that can be omitted. Take a look in which options you can modify:
 
+***
+
+Author
+------
+
+* [Guilherme Oderdenge](mailto:guilhermeoderdenge@gmail.com)
+
 License
 -------
 
