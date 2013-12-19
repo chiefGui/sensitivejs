@@ -1,3 +1,5 @@
+*Current version is 0.4.1 (beta)*
+
 Synopsis
 --------
 
@@ -41,7 +43,7 @@ Motivation
 Yes, there are lots of libraries that promise unleash an extraordinary productivity and reliable coding. But, which one is really serious? Based on this reality, I started to developing Sensitive: my way, simple way, a right way.
 
 
-What's new in 0.4?
+What's new in 0.4.x?
 ------------------
 
 -   We converted from jQuery plug-in to vanilla JavaScript;
@@ -69,15 +71,15 @@ As a second option, you can **clone** **from our repository**: `git clone https:
 
 Or, if you wish to download manually like the old times, feel free:
 
--   [sensitive-0.4.0.js][3] — Uncompressed/Development version (~3kb)
+-   [sensitive-0.4.1.js][3] — Uncompressed/Development version (~3kb)
 
-[3]: <https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.4.0.js>
+[3]: <https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.4.1.js>
 
--   [sensitive-0.4.0.min.js][4] — Compressed/Production version (~2kb)
+-   [sensitive-0.4.1.min.js][4] — Compressed/Production version (~2kb)
 
 [2]: <http://bower.io/>
 
-[4]: <https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.4.0.min.js>
+[4]: <https://github.com/chiefGui/sensitivejs/blob/master/dist/sensitive-0.4.1.min.js>
 
 
 
@@ -87,7 +89,7 @@ Usage
 Please, call Sensitive in the page that you want to use it:
 
 ```html
-<script src='/path/to/sensitive-0.4.0.min.js'></script>
+<script src='/path/to/sensitive-0.4.1.min.js'></script>
 ```
 
 Then, by now, you just need to code:
