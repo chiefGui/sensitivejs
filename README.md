@@ -54,7 +54,7 @@ What's new in 0.4?
 
 
 
-Requeriments
+Requirements
 ------------
 
 **Sorry.** You just need a browser.
